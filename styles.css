@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(nestle\ back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1400px;
+    color: black;
+}
+
+header {
+    background: linear-gradient(to right, #FF6B6B, #556270);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    background-image: url('toffee-bg.jpg');
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-image: url('footer-bg.jpg');
+    padding: 20px 0;
+    background: linear-gradient(to right, #FF6B6B, #556270);
+
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.contact-form button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+table{
+    border: 2px solid black;
+    display: table;
+    box-sizing: border-box;
+    border-spacing: 2px;
+}
